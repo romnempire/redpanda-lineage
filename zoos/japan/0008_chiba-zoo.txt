@@ -1,0 +1,10 @@
+[zoo]
+_id: 8
+en.address: Japan, 〒264-0037 Chiba Prefecture, Chiba, Wakaba Ward, Minamotocho, 280番地
+en.location: Chiba
+en.name: Chiba Zoological Park
+jp.address: unknown
+jp.location: 千葉県 関東地方
+jp.name: 千葉市動物公園
+language.order: jp, en
+website: http://www.city.sapporo.jp/zoo/index.html

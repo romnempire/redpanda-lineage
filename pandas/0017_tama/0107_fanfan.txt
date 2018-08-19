@@ -1,0 +1,17 @@
+[panda]
+_id: 107
+birthday: 1999/7/9
+birthplace: 15
+children: 136, 191, 157, 192, 287, 83, 105, 36, 74
+en.name: Fan-Fan
+en.nicknames: none  
+en.othernames: none
+gender: f
+jp.name: ファンファン
+jp.nicknames: none
+jp.othernames: 花花
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BlAvIRzFmxL/media/?size=m
+photo.1.author: lsdar13
+photo.1.link: https://www.instagram.com/lsdar13/
+zoo: 17

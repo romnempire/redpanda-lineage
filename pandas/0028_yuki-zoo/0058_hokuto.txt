@@ -1,0 +1,29 @@
+[panda]
+_id: 58
+birthday: 2014/7/10
+birthplace: 7
+children: none
+en.name: Hokuto
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ホクト
+jp.nicknames: none
+jp.othernames: 北斗
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BQH4tXFB0WK/media/?size=m
+photo.1.author: cattail.sapporo
+photo.1.link: https://www.instagram.com/cattail.sapporo/
+photo.2: https://www.instagram.com/p/BhYtxZGlTyq/media/?size=m
+photo.2.author: hanamaru_redpanda
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3: https://www.instagram.com/p/BSX96vMDWk5/media/?size=m
+photo.3.author: cattail.sapporo
+photo.3.link: https://www.instagram.com/cattail.sapporo/
+photo.4: https://www.instagram.com/p/BlhKWr_F7WS/media/?size=m
+photo.4.author: motohin
+photo.4.link: https://www.instagram.com/motohin/
+photo.5: https://www.instagram.com/p/BirQJqOFu6P/media/?size=m
+photo.5.author: izu_108
+photo.5.link: https://www.instagram.com/izu_108/
+zoo: 28

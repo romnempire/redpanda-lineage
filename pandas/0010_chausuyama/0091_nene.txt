@@ -1,0 +1,31 @@
+[panda]
+_id: 91
+birthday: 2012/7/5
+birthplace: 10
+children: unknown
+en.name: Nene
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ネネ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 75
+photo.1: https://www.instagram.com/p/Bc5woXBjA0M/media/?size=m
+photo.1.author: _rifa_p
+photo.1.link: https://www.instagram.com/_rifa_p/
+photo.2: https://www.instagram.com/p/BeJU53ihuCR/media/?size=m
+photo.2.author: no_life_no_zoo
+photo.2.link: https://www.instagram.com/no_life_no_zoo/
+photo.3: https://www.instagram.com/p/BcCLRCFljUW/media/?size=m
+photo.3.author: miyagawa_hiromi
+photo.3.link: https://www.instagram.com/miyagawa_hiromi/
+photo.4: https://www.instagram.com/p/BfJ2NKDg1az/media/?size=m
+photo.4.author: tama080707
+photo.4.link: https://www.instagram.com/tama080707/
+photo.5: https://www.instagram.com/p/BbdDvznj6wK/media/?size=m
+photo.5.author: _rifa_p
+photo.5.link: https://www.instagram.com/_rifa_p/
+species: 2
+zoo: 10

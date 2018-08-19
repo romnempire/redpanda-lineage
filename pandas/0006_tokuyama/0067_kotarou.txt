@@ -1,0 +1,18 @@
+[panda]
+_id: 67
+birthday: 2006/6/22 
+birthplace: 17 
+children: 16, 298, 253, 160, 140, 70, 301
+death: 2016/1/20
+en.name: Kotarou
+en.nicknames: none 
+en.othernames: none
+gender: m
+jp.name: コタロウ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/Bkr0RjglPjP/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+zoo: 6

@@ -1,0 +1,12 @@
+language: python
+python:
+  - '3.4'
+sudo: false
+script: ./build.py
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: false
+  on:
+    branch: master

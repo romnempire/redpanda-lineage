@@ -1,0 +1,31 @@
+[panda]
+_id: 97
+birthday: 2015/7/19
+birthplace: 10
+children: unknown
+en.name: Hikaru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヒカル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 98
+photo.1: https://www.instagram.com/p/BX4TQ-Dh1ub/media/?size=m
+photo.1.author: tabechum
+photo.1.link: https://www.instagram.com/tabechum/
+photo.2: https://www.instagram.com/p/BhjGGsblWEP/media/?size=m
+photo.2.author: takashi_8310iyo
+photo.2.link: https://www.instagram.com/takashi_8310iyo/
+photo.3: https://www.instagram.com/p/BXk3xoVBpe-/media/?size=m
+photo.3.author: perie1027vivi
+photo.3.link: https://www.instagram.com/perie1027vivi/
+photo.4: https://www.instagram.com/p/BKUHpdGA3MM/media/?size=m
+photo.4.author: tabechum
+photo.4.link: https://www.instagram.com/tabechum/
+photo.5: https://www.instagram.com/p/BJGDatTgGLw/media/?size=m
+photo.5.author: mariten1119
+photo.5.link: https://www.instagram.com/mariten1119/
+species: 2
+zoo: 10

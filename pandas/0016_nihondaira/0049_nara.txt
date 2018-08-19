@@ -1,0 +1,15 @@
+[panda]
+_id: 49
+birthday: unknown
+birthplace: 40
+death: unknown
+children: 44, 59
+en.name: Nara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 楢
+jp.nicknames: none
+jp.othernames: ナラ
+language.order: jp, en
+zoo: 16

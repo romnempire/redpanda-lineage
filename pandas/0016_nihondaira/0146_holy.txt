@@ -1,0 +1,23 @@
+[panda]
+_id: 146
+birthday: 2016/6/2
+birthplace: 16
+children: none
+en.name: Holy
+en.nicknames: none
+en.othernames: Holly
+gender: f
+jp.name: ホーリー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/Bjgly2WlYYg/media/?size=m
+photo.1.author: masumilky
+photo.1.link: https://www.instagram.com/masumilky/
+photo.2: https://www.instagram.com/p/BjheSm-lCkF/media/?size=m
+photo.2.author: redpanda_nippon_takashi
+photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.3: https://www.instagram.com/p/BjfN3A-FVfh/media/?size=m
+photo.3.author: panda.daisuki
+photo.3.link: https://www.instagram.com/panda.daisuki/
+zoo: 16

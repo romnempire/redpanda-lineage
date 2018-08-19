@@ -1,0 +1,15 @@
+[panda]
+_id: 222
+birthday: unknown
+birthplace: unknown
+death: unknown
+children: 84, 66
+en.name: Shun-Shun
+en.nicknames: none
+en.othernames: Shunshun
+gender: m
+jp.name: シュンシュン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13

@@ -1,0 +1,31 @@
+[panda]
+_id: 21
+birthday: 2005/6/23
+birthplace: 10
+children: 60, 198, 17, 22, 58
+en.name: Seita
+en.nicknames: Crafty
+en.othernames: none
+gender: m
+jp.name: セイタ 
+jp.nicknames: none
+jp.othernames: 星太
+language.order: jp, en
+litter: 82
+photo.1: https://www.instagram.com/p/BbD4AuwnbIl/media/?size=m
+photo.1.author: cattail.sapporo
+photo.1.link: https://www.instagram.com/cattail.sapporo/
+photo.2: https://www.instagram.com/p/BjIpgeUgbsc/media/?size=m
+photo.2.author: cattail.sapporo
+photo.2.link: https://www.instagram.com/cattail.sapporo/
+photo.3: https://www.instagram.com/p/BlxiDnwH5Jq/media/?size=m
+photo.3.author: cattail.sapporo
+photo.3.link: https://www.instagram.com/cattail.sapporo/
+photo.4: https://www.instagram.com/p/BhXd7jTnJC5/media/?size=m
+photo.4.author: cattail.sapporo
+photo.4.link: https://www.instagram.com/cattail.sapporo/
+photo.5: https://www.instagram.com/p/Bbn3iMpnz4C/media/?size=m
+photo.5.author: cattail.sapporo
+photo.5.link: https://www.instagram.com/cattail.sapporo/
+species: 2
+zoo: 7

@@ -1,0 +1,21 @@
+[panda]
+_id: 215
+birthday: 2012/6/18
+birthplace: 10
+children: 212, 213, 250, 251
+en.name: Kenshin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ケンシン
+jp.nicknames: none
+jp.othernames:  none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BlelGMsl9ey/media/?size=m
+photo.1.author: monmon_redpanda
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.2: https://www.instagram.com/p/BlfJgQwF3iM/media/?size=m
+photo.2.author: monmon_redpanda
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+species: 2
+zoo: 26

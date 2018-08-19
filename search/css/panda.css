@@ -1,0 +1,563 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    overflow-x: hidden;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background: #366938;
+}
+
+div.topMenu {
+    display: table;
+    text-align: center;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #366938;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    vertical-align: middle;
+}
+
+@keyframes activate {
+    from { background-color: #366938; }
+    to { background-color: #699C6A; }
+}
+
+button.logo {
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+    float: left;
+}
+
+button.menu {
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+}
+
+button.menu:hover, button.logo:hover {
+    animation: activate;
+    animation-duration: 0.3s;
+    background-color: #699C6A;
+}
+
+button.menu:active, button.logo:active {
+    animation: activate;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+}
+
+button.menu div.buttonContent, button.logo div.buttonContent {
+    display: table;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.menu div.icon, button.logo div.icon {
+    display: table-cell;
+    font-size: 24pt;
+    padding-right: 8px;
+}
+
+button.menu div.text, button.logo div.text {
+    display: table-cell;
+    padding-right: 8px;
+}
+
+div.topSearch {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    height: 64px;
+    background-color: white;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    border-top: 2px solid yellowgreen;
+}
+
+div.shrinker {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 860px;
+}
+
+form {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+input[type='text'] {
+    font-family: "Avenir Next", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
+}
+
+input.search[disabled] {
+    background-color: white;
+    color: white;
+}
+
+input.search[disabled]::placeholder {
+    background-color: white;
+    color: lightgray;
+}
+
+input.search {
+    font-size: 38pt;
+    width: 100%;
+    border: 0px solid;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+input#searchSubmit {
+    display: none;
+}
+
+input.search::placeholder {
+    color: #E4A880; /* The light green, but with RR and GG byte switched */
+}
+
+img.fullFrame {
+    height: calc(100% - 128px);
+    width: 100%;
+    object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
+    opacity: 0.4;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div#contentFrame {
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div#hiddenContentFrame {
+    display: none;
+    z-index: -1;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div.pandaResult, div.zooResult {
+    display: table;
+    clear: both;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+div.pandaTitle a, div.pandaDossier a, div.pandaFamily a {
+    text-decoration: none !important;
+    color: black;
+}
+
+p.furigana {
+    display: inline;
+    font-size: 80%;
+    margin-left: 1ex;
+}
+
+div.emptyResult {
+    display: table;
+    position: relative;
+    clear: both;
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+    vertical-align: middle;
+}
+
+div.emptyResult img {
+    width: 860px;
+    max-width: 100%;
+}
+
+div.emptyResult div.overlay {
+    position: absolute;
+    font-size: 22pt;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+div.pandaPhoto, div.zooPhoto {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: black;
+}
+
+div.pandaPhoto img, div.zooPhoto img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+div.pandaDossier, div.zooDossier {
+    display: table-cell;
+    vertical-align: top;
+    background-color: #EDC1D7; /* Pink Lady Apples */
+    border-left: 1px solid #033605; /* Bamboo Green */
+}
+
+div.pandaTitle, div.zooTitle {
+    display: block;
+    text-align: left;
+    min-width: 300px;
+    min-height: 32pt;
+    background-color: yellowgreen;
+    padding-left: 18px;
+}
+
+div.pandaName, div.zooName, div.gender {
+    display: inline-block;
+    font-size: 22pt;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    vertical-align: middle;
+}
+
+div.gender {
+    margin-right: 0.5ex;
+}
+
+div.gender.center {
+    margin-left: 0.5ex;
+    margin-right: 0.5ex;
+}
+
+div.gender img {
+    height: 18pt;
+}
+
+div.pandaDetails, div.zooDetails {
+    display: block;
+    min-width: 300px;
+    background-color: #9771A7; /* Grapes */
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+div.pandaDetails p, div.zooDetails p {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding-top: 0ex;
+    padding-bottom: 0ex;
+}
+
+h3, h4 {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 1ex;
+    margin-bottom: 0ex;
+    padding: 0 0 0 0;
+    text-decoration: underline;
+}
+
+div.family {
+    display: block;
+    min-width: 300px;
+    background-color: #EDC1D7; /* Pink Lady Apples */
+}
+
+div.parents, div.litter, div.siblings, div.children, div.names {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    max-width: 170px;
+    padding-right: 18px;
+}
+
+ul.pandaList {
+    text-align: left;
+    list-style: none;
+    padding-left: 18px;
+    margin-top: 0.5ex;
+}
+
+ul.pandaList li {
+    padding-top: 0.25ex;
+    padding-bottom: 0.5ex;
+}
+
+ul.pandaList li a.passedAway {
+    color: gray;
+}
+
+div.footer {
+    display: table;
+    width: 100%;
+    text-align: left;
+    font-size: 10pt;
+    background-color: #366938;
+    color: white;
+    bottom: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+div.footer p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
+div.footer a {
+    color: white;
+}
+
+a.emojiLink {
+    text-decoration: none !important;   /* iPhone seems to require the !important */
+}
+
+div.vitamins {
+    /* A slug of characters to make webfonts load all necessary glyphs.
+       Otherwise Typesquare, the Morisawa foundry service, won't properly load
+       all the glyphs one of the search result pages might need. */
+    display: none;
+}
+
+div.detailsPhoto {
+    display: block;
+    text-align: center;
+    background-color: black;
+    border-top: 1px solid #033605; /* Bamboo Green */
+    border-left: 1px solid #033605; /* Bamboo Green */
+    border-right: 1px solid #033605; /* Bamboo Green */
+}
+
+div.pandaAbout {
+    color: white;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
+div.detailsNameTitle {
+    display: block;
+    text-align: center;
+    background-color: #ED6167;
+    border-bottom: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsName {
+    display: block;
+    text-align: center;
+    background-color: #EDC1D7;
+    border-left: 1px solid #033605; /* Bamboo Green */
+    border-right: 1px solid #033605; /* Bamboo Green */
+    border-top: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsPhoto img {
+    height: 80vh;
+}
+
+div.detailsLocationTitle {
+    display: block;
+    text-align: center;
+    /* background-color: #755085; /* Dark Grapes */
+    background-color: yellowgreen;
+    border-bottom: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsLocation {
+    display: block;
+    text-align: center;
+    min-width: 300px;
+    background-color: #9771A7; /* Grapes */
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+span.detail {
+    display: block;
+    font-size: 10pt;
+}
+
+div.detailsVideo {
+    background-color: #366938; /* Match the menu background */
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsFamilyTitle {
+    display: block;
+    text-align: center;
+    background-color: #C28660; /* Goldenrod */
+    border-bottom: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsFamily {
+    display: block;
+    text-align: center;
+    background-color: #E4A880; /* Sunflower */
+    border: 1px solid #033605; /* Bamboo Green */
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
+/* Portrait mode, default for iPhones and for frames that are in a 
+   similar layout / resolution. Shorten the padding details, and turn
+   the two-column results layout into a single-column layout. */
+@media screen and (max-width: 630px) {
+    button.logo {
+        display: none;
+    }
+    
+    button.menu {
+        width: 80px;
+        height: auto;
+    }
+
+    button.menu div.icon {
+        display: table-row;
+        font-size: 24pt;
+        padding: 0 0 0 0;
+    }
+
+    button.menu div.text {
+        display: table-row;
+        font-size: 10pt;
+        padding: 0 0 0 0;
+        word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
+    }
+
+    div#contentFrame {
+        padding-top: 0.1ex;
+        padding-bottom: 0.1ex;
+    }
+
+    input.search {
+        padding-left: 4px;
+        padding-bottom: 0vh;
+        margin: 0 0 0 0;
+    }
+
+    div.pandaResult, div.zooResult, div.emptyResult {
+        background-color: lightgoldenrodyellow;
+        padding-bottom: 0ex;
+        margin-top: 0.7ex;
+        margin-bottom: 0.7ex;
+        border: 0px solid;
+    }
+
+    div.pandaPhoto, div.zooPhoto, div.detailsPhoto {
+        display: block;
+        text-align: center;
+        padding-bottom: 0ex;
+    }
+
+    div.pandaPhoto img, div.zooPhoto img {
+        width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+
+    div.pandaTitle, div.zooTitle {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+    div.gender {
+	    margin-left: 0.5ex;
+    }
+
+    div.pandaName {
+        margin-right: 0.5ex;
+    }
+
+    div.zooName {
+        margin-left: 0.5ex;
+        margin-right: 0.5ex;
+    }
+
+    div.pandaDossier, div.zooDossier {
+        display: block;
+        border: 0px solid;
+    }
+
+    /* Masonry tricks: do vertical layout of ULs when
+       in mobile mode. */
+    div.family {
+        column-count: 2;
+    }
+
+    /* Masonry layout tricks: the column width must be 100%.
+       Zero the padding so it's not bigger than 100% */
+    div.parents, div.litter, div.siblings, div.children, div.names {
+        width: 100%;
+        max-width: 148px;
+        padding-right: 6px;
+        text-align: left;
+    } 
+
+    div.pandaDetails p, div.zooDetails p {
+        margin-left: 14px;
+    }
+
+    h3, h4 {
+        margin-left: 14px;
+    }
+
+    ul.pandaList {
+        list-style: none;
+        text-align: left;
+        padding-left: 14px;
+    }
+
+    div.footer {
+        text-align: left;
+    }
+
+    div.footer p {
+        margin-left: 8px;
+    }
+
+    a.emojiLink {
+        /* Make the top-page arrow more touchable on mobile */
+        font-size: 20pt;
+        float: left;
+        padding-right: 8px;
+    }
+
+    div.pandaAbout p {
+        margin-left: 8px;
+        margin-right: 8px;
+    }    
+}
